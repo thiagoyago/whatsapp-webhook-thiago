@@ -1,13 +1,15 @@
 import express from "express";
 import bodyParser from "body-parser";
 
-const app = express().use(bodyParser.json());
+const app = express();
+app.use(bodyParser.json());
+
 const PORT = process.env.PORT || 3000;
 
-// TOKEN DE VERIFICAÇÃO (use o mesmo que vai colocar no painel da Meta)
+// TOKEN DE VERIFICAÇÃO (mesmo que está no painel da Meta)
 const VERIFY_TOKEN = "thiago123";
 
-// ROTA DE VERIFICAÇÃO (para o Meta confirmar o webhook)
+// ROTA DE VERIFICAÇÃO (para a Meta confirmar o webhook)
 app.get("/webhook", (req, res) => {
   const mode = req.query["hub.mode"];
   const token = req.query["hub.verify_token"];
