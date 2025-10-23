@@ -36,4 +36,8 @@ app.post("/webhook", (req, res) => {
 
 app.listen(PORT, () => console.log(`🚀 Servidor rodando na porta ${PORT}`));
 
+// Teste simples para verificar se o servidor está online
+app.get('/teste', (req, res) => {
+  res.send('✅ Servidor rodando perfeitamente!');
+});
 
