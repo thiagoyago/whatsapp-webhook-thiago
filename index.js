@@ -63,5 +63,6 @@ app.post("/webhook", (req, res) => {
 // Iniciar servidor
 app.listen(PORT, () => console.log(`🚀 Servidor rodando na porta ${PORT}`));
 
-PHONE_NUMBER_ID 874881989035008
+const ID_DO_NÚMERO_DE_TELEFONE = "874881989035008";
+
 
