@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 const VERIFY_TOKEN = "thiago123";
 
 // Token de acesso (coloque o seu token temporário aqui)
-const ACCESS_TOKEN = "COLE_SEU_TOKEN_AQUI";
+const ACCESS_TOKEN = "EAAQ0QGJqDkcBP43diAQ5nn76jvnKSNBaxDS3BsTkcMLFpltfdOsUD2yB3o8ACWJ3IqZAZCBS6APneftQlHkzUl7RnPjgVOtZCLpQZCxFizHDcEz1WOKrOC5K51GvAk8Yaxm2S8aBPojR1p0tH1bt57O2IZBT58JZAsjMGtsSVSd3LVZC4dSvdshL84vtTnZCZAyLEZCnQU99slr1WvfeweKFuRTDrHfPGNLlQfeOouuhcFciDvassqBWZBxKI4vqkt0jhUaMAGAWKYdHVHpgCKomifzV9MeZB2XRoW6ua4zfegZDZD";
 
 // ✅ Rota de verificação (usada apenas pela Meta)
 app.get("/webhook", (req, res) => {
@@ -62,6 +62,6 @@ app.post("/webhook", (req, res) => {
 
 // Iniciar servidor
 app.listen(PORT, () => console.log(`🚀 Servidor rodando na porta ${PORT}`));
-const ACCESS_TOKEN = "EAAQ0QGJqDkcBP43diAQ5nn76jvnKSNBaxDS3BsTkcMLFpltfdOsUD2yB3o8ACWJ3IqZAZCBS6APneftQlHkzUl7RnPjgVOtZCLpQZCxFizHDcEz1WOKrOC5K51GvAk8Yaxm2S8aBPojR1p0tH1bt57O2IZBT58JZAsjMGtsSVSd3LVZC4dSvdshL84vtTnZCZAyLEZCnQU99slr1WvfeweKFuRTDrHfPGNLlQfeOouuhcFciDvassqBWZBxKI4vqkt0jhUaMAGAWKYdHVHpgCKomifzV9MeZB2XRoW6ua4zfegZDZD";
+
 PHONE_NUMBER_ID 874881989035008
 
